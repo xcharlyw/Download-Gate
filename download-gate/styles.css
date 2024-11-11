@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #333;
+    color: #fff;
+  }
+  
+  .container {
+    text-align: center;
+    background: #444;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    margin-bottom: 0.5em;
+  }
+  
+  input[type="email"] {
+    padding: 0.8em;
+    width: 80%;
+    max-width: 300px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1em;
+  }
+  
+  button {
+    padding: 0.8em 1.5em;
+    background: #00aaff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #008fcc;
+  }
+  
+  #download-link a {
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #download-link a:hover {
+    text-decoration: underline;
+  }
+  
